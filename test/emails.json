@@ -1,0 +1,49 @@
+{
+    "all": {
+        "data": [
+            "example@gmail.com",
+            "example+1@gmail.com",
+            "ex.ample@gmail.com",
+            "exam+ple@gmail.com",
+            "exam..ple++@gmail.com",
+            "example@yopmail.com",
+            "example@yopmail.com",
+            "example1@gmail.com",
+            "test@yopmail.com",
+            "te.st@yopmail.com",
+            "test@mailinator.com"
+        ],
+        "result": 7
+    },
+    "basicDuplicate": {
+        "data": [
+            "example@yopmail.com",
+            "example@yopmail.com",
+            "example@gmail.com",
+            "test@gmail.com"
+        ],
+        "result": 3
+    },
+    "gmailPlusSign": {
+        "data": [
+            "example1+2@gmail.com",
+            "example1+example1+@gmail.com",
+            "example1+++example@gmail.com",
+            "example1@gmail.com",
+            "example1+2@yopmail.com"
+        ],
+        "result": 2
+    },
+    "gmailPeriod": {
+        "data": [
+            "ex...ample@gmail.com",
+            "e.xample@gmail.com",
+            "ex.amp.le@gmail.com",
+            "example@mailinator.com",
+            "ex.amp.le@mailinator.com",
+            "nick.test@yopmail.com",
+            "ni.ck.te.st@yopmail.com"
+        ],
+        "result": 5
+    }
+}

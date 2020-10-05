@@ -1,0 +1,23 @@
+{
+  "name": "email-checker",
+  "version": "1.0.0",
+  "description": "An email checker made for a coding challenge.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test --exit",
+    "coverage": "nyc npm test --timeout=3000"
+  },
+  "author": "Nicholas Rung",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0"
+  }
+}
